@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/praveen/Downloads/EmployeeFunction/EmployeeFunction.csproj": {}
+  },
+  "projects": {
+    "/Users/praveen/Downloads/EmployeeFunction/EmployeeFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/praveen/Downloads/EmployeeFunction/EmployeeFunction.csproj",
+        "projectName": "EmployeeFunction",
+        "projectPath": "/Users/praveen/Downloads/EmployeeFunction/EmployeeFunction.csproj",
+        "packagesPath": "/Users/praveen/.nuget/packages/",
+        "outputPath": "/Users/praveen/Downloads/EmployeeFunction/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/praveen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Azure.DurableTask.Core": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.Azure.DurableTask.Emulator": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.CosmosDB": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.DurableTask": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.NETCore.Runtime": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

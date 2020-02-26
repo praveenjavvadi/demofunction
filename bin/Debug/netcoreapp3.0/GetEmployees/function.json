@@ -1,0 +1,18 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "route": "GetEmployees",
+      "methods": [
+        "Get"
+      ],
+      "authLevel": "anonymous",
+      "name": "req"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/EmployeeFunction.dll",
+  "entryPoint": "EmployeeFunction.Employee.GetEmployees"
+}
